@@ -25,7 +25,7 @@ var ProductRow = React.createClass({displayName: "ProductRow",
 
 var ProductTable = React.createClass({displayName: "ProductTable",
     render: function() {
-        // console.log(this.props);
+        console.log(this.props);
         var rows = [];
         var lastCategory = null;
         this.props.products.forEach(function(product) {
